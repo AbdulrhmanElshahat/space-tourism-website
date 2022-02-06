@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="style/main.css">
+  <link rel="stylesheet" href="style/destination.css">
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body>
+  <div class="container destination" data-name="destinations">
+    <header>
+      <img src="assets/shared/logo.svg" alt="logo" class="logo">
+      <img src="assets/shared/icon-hamburger.svg" alt="menue-btn" class="menue-btn">
+
+      <ul class="menue">
+        <img src="assets/shared/icon-close.svg" alt="close-button" class="close-btn">
+        <li><a href="index.html"><span>00</span>Home</a></li>
+        <li class="active"><a href="destination-moon.html"><span>01</span>Destination</a></li>
+        <li><a href="crew-commander.html"><span>02</span>Crew</a></li>
+        <li><a href="technology-vehicle.html"><span>03</span>Technology</a></li>
+      </ul>
+    </header>
+    <div class="title"><span class="item">01</span> Pick your destination</div>
+    <section class="content" data-num="3">
+      <div class="content-planet">
+        <div class="image">
+          <img src="assets/destination/image-titan.png" alt="Titan">
+        </div>
+      </div>
+      
+      <div class="content-info">
+        <ul class="planet-menue">
+          <li><a href="destination-moon.html">Moon</a></li>
+          <li><a href="destination-mars.html">Mars</a></li>
+          <li><a href="destination-europa.html">Europa</a></li>
+          <li class="active"><a href="destination-titan.html">Titan</a></li>
+        </ul>
+        <h1 class="name"></h1>
+        <p class="description">
+          
+        </p>
+        <div class="travel-info">
+          <div class="Avg-distance">
+            <span>Avg. distance</span>
+            <div class="value"></div>
+          </div>
+          <div class="Est-travel-time">
+            <span>Est. travel time</span>
+            <div class="value"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+</body>
+</html>
